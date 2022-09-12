@@ -1,0 +1,27 @@
+// Colors
+
+$text-color: #333;
+$text-disable-color: rgba($text-color, 0.5);
+$secondary-color: #6BB9F1;
+
+// Font
+
+$base-font: 16px;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+
+$family-font: 'Roboto', sans-serif;
+
+// media
+
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$extra-large: 1200px;
+$X-extra-large: 1400px;
+
+$sm-screen: "all and (max-width: #{$small})";
+$md-screen: "all and (max-width: #{$medium})";
+$lg-screen: "all and (max-width: #{$large})";
+$ex-screen: "all and (max-width: #{$extra-large})";
+$xx-screen: "all and (max-width: #{$X-extra-large})";

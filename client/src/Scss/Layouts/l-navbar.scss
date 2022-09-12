@@ -1,0 +1,8 @@
+#navbar{
+    padding-top: 2rem;
+    @include padding-container;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

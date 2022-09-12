@@ -1,0 +1,43 @@
+.navbar-list{
+    @media #{$sm-screen} {
+        display: none;
+    }
+
+    display: flex;
+    font-size: 1.1rem;
+}
+
+.navbar-list-item{
+    color: $text-disable-color;
+    
+    @media #{$md-screen} {
+        margin: 0 1rem;
+    }
+
+    margin: 0 1.5rem;
+    
+    span{
+        font-size: 2rem;
+        line-height: 5px;
+        color: $secondary-color;
+    }
+}
+
+
+
+.navbar-logo{
+    font-size: 1.3rem;
+    span{
+        color: $secondary-color;
+    }
+}
+
+.navbar-handleButton{
+    font-size: 1.5rem;
+    display: none;
+    @media #{$sm-screen} {
+        display: inline;
+    }
+
+
+}

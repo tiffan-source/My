@@ -1,0 +1,29 @@
+@mixin padding-container {
+    
+    @media #{$xx-screen} {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    @media #{$ex-screen} {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+    
+    @media #{$lg-screen} {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    
+    @media #{$md-screen} {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    
+    @media #{$sm-screen} {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    
+}
