@@ -1,9 +1,17 @@
 .navbar-list{
+    display: flex;
+
     @media #{$sm-screen} {
-        display: none;
+        position: absolute;
+        flex-direction: column;
+        left: 0;
+        right: 0;
+        top: 100%;
+        @include padding-container;
+
+        background: $white;
     }
 
-    display: flex;
     font-size: 1.1rem;
 }
 
@@ -14,6 +22,11 @@
         margin: 0 1rem;
     }
 
+    @media #{$sm-screen} {
+        font-size: 1.5rem;
+        margin: 2rem 0;
+    }
+
     margin: 0 1.5rem;
     
     span{
@@ -21,6 +34,8 @@
         line-height: 5px;
         color: $secondary-color;
     }
+
+    text-align: center;
 }
 
 
