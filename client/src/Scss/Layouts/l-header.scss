@@ -1,0 +1,16 @@
+#header{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+
+    min-height: 100vh;
+    @include padding-container;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 17rem;
+
+    position: relative;
+
+    @media #{$lg-screen} {
+        grid-template-columns: 1fr 1fr;
+    }
+}

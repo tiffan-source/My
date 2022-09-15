@@ -16,10 +16,10 @@
 }
 
 .navbar-list-item{
-    color: $text-disable-color;
+    color: rgba($white, 0.5);
     
     @media #{$md-screen} {
-        margin: 0 1rem;
+        margin-right: 1rem;
     }
 
     @media #{$sm-screen} {
@@ -27,7 +27,7 @@
         margin: 2rem 0;
     }
 
-    margin: 0 1.5rem;
+    margin-right: 1.5rem;
     
     span{
         font-size: 2rem;
@@ -41,9 +41,16 @@
 
 
 .navbar-logo{
+    color: $white;
     font-size: 1.3rem;
     span{
         color: $secondary-color;
+    }
+
+    min-width: 17rem;
+
+    @media #{$lg-screen} {
+        min-width: inherit;
     }
 }
 

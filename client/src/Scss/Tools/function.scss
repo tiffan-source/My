@@ -1,3 +1,7 @@
 @function rem($dim, $base: $base-font){
     @return 1rem * ($dim / $base);
 }
+
+@function text($size){
+    @return calc($size + 5vmin);
+}
