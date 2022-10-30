@@ -6,3 +6,30 @@
     border-radius: 20px;
     border: 1px solid $white;
 }
+
+.btn{
+    padding: 1rem 2rem;
+    box-shadow: $shadow;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+    transition: all 0.5s ease;
+    display: inline-block;
+
+    background-color: $primary-color;
+    color: $white;
+
+    &:hover{
+        box-shadow: none;
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+.btn-section{
+    align-self: center;
+}
+
+.btn-newsletter{
+    box-shadow: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}

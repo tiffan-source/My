@@ -1,0 +1,38 @@
+.card-group {
+    flex-wrap: wrap;
+    gap: 2rem;
+    @include center;
+}
+
+.card {
+    max-width: 15rem;
+    padding: 2rem;
+    border: 1px solid $border-color;
+    border-radius: 1rem;
+    box-shadow: 0 0 4px #d8e1e8;
+}
+
+.card-head{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-img {
+    max-width: 4rem;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.card-description {
+    text-align: justify;
+}
+
+.card-link {
+    display: inline-block;
+    width: 100%;
+    text-align: end;
+}

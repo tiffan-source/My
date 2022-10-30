@@ -11,13 +11,27 @@ a{
 }
 
 .comment-span{
-    color: rgba($color: $white, $alpha: 0.5);
+    color: rgba(#333, 0.5);
     margin-bottom: 1rem;
     width: 100%;
+    display: inline-block;
+}
+
+.span-primary{
+    color: $primary-color;
 }
 
 p{
     margin-top: 1rem;
     margin-bottom: 2rem;
     line-height: 1.3;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+span.color{
+    color: $secondary-color;
 }

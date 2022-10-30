@@ -9,7 +9,7 @@
         top: 100%;
         @include padding-container;
 
-        background: $white;
+        background: $primary-color;
     }
 
     font-size: 1.1rem;
@@ -61,5 +61,6 @@
         display: inline;
     }
 
+    color: $white;
 
 }

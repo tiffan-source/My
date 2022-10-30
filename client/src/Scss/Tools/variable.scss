@@ -1,12 +1,17 @@
 // Colors
-
+$carbon: #333;
 $primary-color: #3C528B;
 
-$text-color: #333;
+$text-color: $carbon;
 $text-disable-color: rgba($text-color, 0.5);
 $secondary-color: #6BB9F1;
 
 $white: #fff;
+
+// box
+
+$border-color : #d5e3ec;
+$shadow: 4px 4px 4px #d8e1e8;
 
 // Font
 

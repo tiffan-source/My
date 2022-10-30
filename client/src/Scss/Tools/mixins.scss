@@ -1,9 +1,9 @@
 @mixin padding-container {
     
-    @media #{$xx-screen} {
+    // @media #{$xx-screen} {
         padding-left: 10rem;
         padding-right: 10rem;
-    }
+    // }
 
     @media #{$ex-screen} {
         padding-left: 7rem;
@@ -26,4 +26,10 @@
     }
 
     
+}
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

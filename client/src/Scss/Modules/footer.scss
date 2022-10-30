@@ -1,0 +1,54 @@
+.footer{
+    background-color: $carbon;
+    color: $white;
+}
+
+.footer-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+
+    @media #{$lg-screen} {
+        display: inherit;      
+    }
+}
+
+.footer-aboutme-description{
+    text-align: justify;
+}
+
+.footer-copyright{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.footer-newsletter{
+    justify-self: center;
+    // align-self: ;
+}
+
+.footer-newsletter-group-label{
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+.footer-newsletter-group-input{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-newsletter-social{
+    margin-top: 2rem;
+}
+
+.footer-newsletter-social-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-newsletter-social-list-item{
+    font-size: 1.4rem;
+}

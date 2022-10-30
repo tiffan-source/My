@@ -1,0 +1,52 @@
+.experience-state{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.experience-state-years, .experience-state-project{
+    margin-right: 2rem;
+
+    span{
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
+}
+
+.experience-project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+
+    @media #{$sm-screen} {
+        grid-template-columns: 1fr;
+    }
+}
+
+%card{
+    box-shadow: $shadow;
+    border-radius: 10px;
+    padding: 4rem 1.5rem;
+    color: $white;
+    @media #{$sm-screen} {
+        margin: 1rem 0;
+    }
+    // max-width: 17rem;
+}
+
+.experience-project-web{
+    @extend %card;
+    background-color: #333;
+
+    border-top: 5rem solid #333;
+
+}
+
+.experience-project-design{
+    @extend %card;
+    background-color: $primary-color;
+    align-self: end;
+}

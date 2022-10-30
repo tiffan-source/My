@@ -1,0 +1,18 @@
+.article-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+
+    @media #{$md-screen} {
+        display: block;
+    }
+}
+
+.article-header-illustration{
+    max-width: 27rem;
+    margin: 0 auto;
+}
+
+.article-button-godown{
+    text-align: center;
+}

@@ -14,7 +14,7 @@ function Header() {
         </div>
 
         <div className='header-information'>
-            <span className='comment-span'>
+            <span className='comment-span' >
                 //Who I am ?
             </span>
             <h2 className='header-information-activity'>
