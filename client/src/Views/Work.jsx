@@ -1,10 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Statproject from '../Components/Statproject'
-// Exemple
 import airbnb from "../img/Airbnb.svg";
-// Exemple
+import list_work from "../Components/Portfolio/PortfolioItem";
+import CardPortfolio from '../Components/Portfolio/CardPortfolio';
 
 function Work() {
+    const [categorie, setCategorie] = useState("All");
   return (
     <main id='work' className='work'>
         <section className="work-head">
@@ -20,7 +21,7 @@ function Work() {
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aperiam facilis natus nulla. Necessitatibus nostrum eos dolor odit illum repellendus reprehenderit? Placeat pariatur porro impedit voluptatibus ea tenetur assumenda neque. Harum ad ab nulla consectetur! Quo ducimus ratione nisi modi!
                 </p>
-                <a href="#portfolio" className='btn btn-section'>Discover</a>
+                <a href="#portfolio" className='btn btn-primary     btn-section'>Discover</a>
             </div>
         </section>
         <section className='work-current'>
@@ -42,8 +43,43 @@ function Work() {
         </section>
         <section id='portfolio'>
             <h2 className='work-portfolio-title title'>Port<span className='color'>folio</span></h2>
-            <ul>
+            <ul className='work-portfolio-list-categorie'>
+                <li>
+                    <a href="/" className={'btn btn-'+(categorie === "All" ? "primary" : "secondary")} onClick={(e)=>{
+                        e.preventDefault();
+                        setCategorie("All")
+                    }}>All</a>
+                </li>
+                <li>
+                    <a href="/" className={'btn btn-'+(categorie === "Web Dev" ? "primary" : "secondary")} onClick={(e)=>{
+                        e.preventDefault();
+                        setCategorie("Web Dev");
+                    }}>Web Developpement</a>
+                </li>
+                <li>
+                    <a href="/" className={'btn btn-'+(categorie === "UI/UX" ? "primary" : "secondary")} onClick={(e)=>{
+                        e.preventDefault();
+                        setCategorie("UI/UX");
+                    }}>UI/UX Design Illustration</a>
+                </li>
+                <li>
+                  <a href="/" className={'btn btn-'+(categorie === "Other" ? "primary" : "secondary")} onClick={(e)=>{
+                    e.preventDefault();
+                    setCategorie("Other");
+                  }}>Other</a>
+                </li>
+            </ul>
+            <ul className='work-portfolio-list'>
+                {
+                    list_work.map((item, key)=>{
+                        if (categorie === "All" || item.categorie === categorie)
+                            return (
+                                <CardPortfolio data={item} key={key}/>
+                            )
 
+                            return ""
+                    })
+                }
             </ul>
         </section>
     </main>

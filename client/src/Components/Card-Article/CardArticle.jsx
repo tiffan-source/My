@@ -15,7 +15,7 @@ function CardArticle(props) {
         </span>
         <h2 className='card-article-body-title'>{title}</h2>
         <p className='card-article-body-description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis a illum nam nulla molestias distinctio, deleniti perferendis quaerat at dolorem. Facilis totam quibusdam aperiam veniam qui dolorum? Voluptate, modi ad?</p>
-        <a href={link} className='btn'>Read</a>
+        <a href={link} className='btn btn-primary'>Read</a>
       </div>
     </div>
   )

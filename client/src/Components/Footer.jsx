@@ -18,29 +18,29 @@ function Footer() {
                     <label htmlFor="subscribe" className='footer-newsletter-group-label'>Subscribe</label>
                     <div className='footer-newsletter-group-input'>
                         <input type="email" className='input' placeholder='black_genius@gmail.com'/>
-                        <a href="/" className='btn btn-newsletter'>Submit</a>
+                        <a href="/" className='btn btn-primary btn-newsletter'>Submit</a>
                     </div>
                 </div>
                 <div className='footer-newsletter-social'>
                     <ul className='footer-newsletter-social-list'>
                         <li className='footer-newsletter-social-list-item'>
-                            <a href="https://dribbble.com/Anlyou" target={"_blank"} rel="noreferrer">
-                                <i class="fab fa-dribbble"></i>
+                            <a href="https://dribbble.com/black_genius" target={"_blank"} rel="noreferrer">
+                                <i className="fab fa-dribbble"></i>
                             </a>
                         </li>
                         <li className='footer-newsletter-social-list-item'>
                             <a href="https://www.linkedin.com/in/anlyou-zohoungbogbo/" target={"_blank"} rel="noreferrer">
-                                <i class="fa-brands fa-linkedin-in"></i>
+                                <i className="fa-brands fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li className='footer-newsletter-social-list-item'>
                             <a href="https://twitter.com/anlzyzou" target={"_blank"} rel="noreferrer">
-                                <i class="fa-brands fa-twitter"></i>
+                                <i className="fa-brands fa-twitter"></i>
                             </a>
                         </li>
                         <li className='footer-newsletter-social-list-item'>
                             <a href="https://web.facebook.com/anlyou.zohoungbogbo" target={"_blank"} rel="noreferrer">
-                                <i class="fa-brands fa-facebook-f"></i>
+                                <i className="fa-brands fa-facebook-f"></i>
                             </a>
                         </li>
                     </ul>

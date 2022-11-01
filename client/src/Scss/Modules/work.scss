@@ -33,10 +33,6 @@
     text-align: center;
 }
 
-.work-current-group-illustration{
-
-}
-
 .work-current-group-illustration-img{
     display: block;
     margin: 0 auto;
@@ -56,4 +52,20 @@
 
 .work-current-group-description-p{
     text-align: justify;
+}
+
+.work-portfolio-list-categorie{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.work-portfolio-list{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
 }

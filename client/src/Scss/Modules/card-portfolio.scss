@@ -1,0 +1,36 @@
+.card-portfolio{
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 17rem;
+    padding: 2rem;
+    border: 1px solid $border-color;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.card-portfolio-head{
+    display: flex;
+    align-self: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.card-portfolio-head-img{
+    max-width: 3rem;
+}
+
+.card-portfolio-head-title{
+    font-size: 1.1rem;
+    @include center;
+}
+
+.card-portfolio-body-content{
+    // text-align: justify;
+}
+
+.card-portfolio-foot{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
