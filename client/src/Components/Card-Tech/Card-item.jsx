@@ -8,25 +8,25 @@ const card = [
   {
     title :  "ReactJs",
     logo : react,
-    link : "/",
+    link : "https://www.reactjs.com",
     description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet adipisci mollitia, nam aliquid ut hic."
   },
   {
     title :  "Sass",
     logo : sass,
-    link : "/",
+    link : "https://sass-lang.com",
     description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet adipisci mollitia, nam aliquid ut hic."
   },
   {
     title :  "Python",
     logo : python,
-    link : "/",
+    link : "https://www.python.org",
     description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet adipisci mollitia, nam aliquid ut hic."
   },
   {
     title :  "JavaScript",
     logo : js,
-    link : "/",
+    link : "https://www.javascript.com/",
     description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet adipisci mollitia, nam aliquid ut hic."
   },
 ]

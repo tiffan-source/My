@@ -1,16 +1,15 @@
 import React from 'react'
 
 function CardArticle(props) {
-  const {title, pubDate, link, thumbnail, description, categories} = props.data;
-  console.log(props.data);
+  const {title, pubDate, link, thumbnail, categories} = props.data;
   return (
     <div className='card-article'>
       <div className='card-article-illustration'>
-        <img src={thumbnail} alt="image"/>
+        <img src={thumbnail} alt="describe article" className='card-article-illustration-img'/>
       </div>
       <div className='card-article-body'>
         <span className='card-article-body-meta'>
-          <span className='card-article-body-meta-when'>{pubDate} </span>
+          <span className='card-article-body-meta-when color'>{pubDate} </span>
           | 
           {categories.join("-")}
         </span>

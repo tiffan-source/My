@@ -9,7 +9,7 @@ function Article() {
     <main id='article' className='article'>
         <header className='article-header'>
             <div className='article-header-description'>
-                <span className='comment-span'>//Problem solve</span>
+                <span className='comment-span'>{"//Problem solve"}</span>
                 <h2 className='title'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </h2>
@@ -25,12 +25,12 @@ function Article() {
             </div>
         </header>
         <div className='article-button-godown'>
-            <a href="#" className='btn-godown'>
+            <a href="#articlecontainer" className='btn-godown btn-godown-article'>
                 <FontAwesomeIcon icon={faArrowDownLong  }/>
             </a>
         </div>
         <section>
-            <div>
+            <div id='articlecontainer'>
                 <CardArticleContainer/>
             </div>
         </section>

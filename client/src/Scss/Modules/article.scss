@@ -8,6 +8,13 @@
     }
 }
 
+.article-container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 4rem 0;
+}
+
 .article-header-illustration{
     max-width: 27rem;
     margin: 0 auto;

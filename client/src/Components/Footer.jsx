@@ -1,5 +1,3 @@
-import { faBookBookmark, faCloud, faCompass, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
 function Footer() {
@@ -26,23 +24,23 @@ function Footer() {
                 <div className='footer-newsletter-social'>
                     <ul className='footer-newsletter-social-list'>
                         <li className='footer-newsletter-social-list-item'>
-                            <a href="/">
-                                <FontAwesomeIcon icon={faCloud}/>
+                            <a href="https://dribbble.com/Anlyou" target={"_blank"} rel="noreferrer">
+                                <i class="fab fa-dribbble"></i>
                             </a>
                         </li>
                         <li className='footer-newsletter-social-list-item'>
-                            <a href="/">
-                                <FontAwesomeIcon icon={faBookBookmark}/>
+                            <a href="https://www.linkedin.com/in/anlyou-zohoungbogbo/" target={"_blank"} rel="noreferrer">
+                                <i class="fa-brands fa-linkedin-in"></i>
                             </a>
                         </li>
                         <li className='footer-newsletter-social-list-item'>
-                            <a href="/">
-                                <FontAwesomeIcon icon={faPaperPlane}/>
+                            <a href="https://twitter.com/anlzyzou" target={"_blank"} rel="noreferrer">
+                                <i class="fa-brands fa-twitter"></i>
                             </a>
                         </li>
                         <li className='footer-newsletter-social-list-item'>
-                            <a href="/">
-                                <FontAwesomeIcon icon={faCompass}/>
+                            <a href="https://web.facebook.com/anlyou.zohoungbogbo" target={"_blank"} rel="noreferrer">
+                                <i class="fa-brands fa-facebook-f"></i>
                             </a>
                         </li>
                     </ul>

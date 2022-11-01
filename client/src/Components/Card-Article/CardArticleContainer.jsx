@@ -23,7 +23,7 @@ class CardArticleContainer extends Component {
 
     render() {
         return (
-            <>
+            <div className='article-container'>
             {
                 this.state.data.map((dataitem, index)=>{
                     return (
@@ -31,7 +31,7 @@ class CardArticleContainer extends Component {
                     )
                 })
             }
-            </>
+            </div>
         );
     }
 }

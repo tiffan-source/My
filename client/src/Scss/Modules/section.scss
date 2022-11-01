@@ -1,4 +1,4 @@
-.section-container-xp{
+.section-container-xp, .section-container-competence{
     @include padding-container;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -6,6 +6,13 @@
     margin-top: 5rem;
     margin-bottom: 4rem;
 
+    @media #{$lg-screen}{
+        grid-template-columns: 1fr;
+    }
+}
+
+.section-container-competence{
+    grid-template-columns: 2fr 3fr;
     @media #{$lg-screen}{
         grid-template-columns: 1fr;
     }

@@ -14,8 +14,8 @@ function Header() {
         </div>
 
         <div className='header-information'>
-            <span className='comment-span' >
-                //Who I am ?
+            <span className='comment-span on-header' >
+                {"//Who I am ?"}
             </span>
             <h2 className='header-information-activity'>
                 Software Engineer And Blogger
@@ -23,7 +23,7 @@ function Header() {
             <p className='header-information-p'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, nesciunt!
             </p>
-            <a href="#" className='btn-godown'>
+            <a href="#homesection" className='btn-godown'>
                 <FontAwesomeIcon icon={faArrowDownLong}/>
             </a>
         </div>

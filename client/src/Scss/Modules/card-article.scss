@@ -1,0 +1,30 @@
+.card-article{
+    max-width: 22rem;
+    border-radius: 1rem;
+    border: 1px solid $border-color;
+    box-shadow: 0 0 4px $shadow-color;
+}
+
+.card-article-body{
+    padding: 1rem 2rem;
+}
+
+.card-article-body-meta{
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.card-article-body-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-article-illustration-img{
+    border-radius: 1rem 1rem 0 0 ;
+}
+
+.card-article-body-description{
+    text-align: justify;
+}

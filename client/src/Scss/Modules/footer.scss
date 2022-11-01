@@ -38,6 +38,9 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    @media #{$sm-screen} {
+        flex-direction: column;
+    }
 }
 
 .footer-newsletter-social{

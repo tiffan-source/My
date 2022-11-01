@@ -3,6 +3,8 @@ html, body{
     font-size: $base-font;
     font-family: $family-font;
     color: $text-color;
+    scroll-behavior: smooth;
+
 }
 
 a{

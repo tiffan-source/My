@@ -21,7 +21,7 @@ function Card() {
             </div>
           )
         })
-      }      
+      }
     </div>
   )
 }
